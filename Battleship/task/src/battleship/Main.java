@@ -3,6 +3,10 @@ import java.io.IOException;
 import java.util.*;
 public class Main {
     public static final Scanner scanner = new Scanner(System.in);
+    public static final String Mark = CellState.MARK.getState();
+    public static final String Fog = CellState.FOG.getState();
+    public static final String Miss = CellState.MISS.getState();
+    public static final String Hit = CellState.HIT.getState();
     public static void main(String[] args) throws IOException {
         Player player1 = Player.PLAYER_1;
         PlayingField playingFieldOfPlayerOne = new PlayingField(player1);
